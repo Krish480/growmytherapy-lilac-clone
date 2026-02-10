@@ -6,11 +6,11 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="bg-[var(--bg-main)] relative">
+        <header className="bg-[var(--bg-main)] sticky top-0 z-40">
             {/*  DESKTOP NAV  */}
-            <div className="hidden md:flex max-w-[1400px] mx-auto px-6 py-6 items-center justify-between">
-                <div className="text-3xl font-[var(--font-heading)] text-[var(--text-primary)]">
-                    Lilac Template
+            <div className="hidden md:flex max-w-8xl mx-auto px-14 py-4 items-center justify-between">
+                <div className="font-[var(--font-heading)] text-[var(--text-primary)]">
+                    <h1 className="text-3xl font-bold">Lilac Template</h1>
                 </div>
 
                 <nav className="flex gap-12 text-lg font-[var(--font-body)] text-[var(--text-primary)]">
@@ -29,7 +29,7 @@ const Navbar = () => {
                     <i className="fa-solid fa-bars" />
                 </button>
 
-                <div className="text-2xl font-[var(--font-heading)] text-[var(--text-primary)]">
+                <div className="text-xl  font-[var(--font-heading)] text-[var(--text-primary)]">
                     Lilac Template
                 </div>
             </div>

@@ -1,8 +1,5 @@
 @import "tailwindcss";
 
-* {
-  font-family:
-}
 
 :root {
   /* Backgrounds */
@@ -11,7 +8,7 @@
   --bg-accent: #8b8f63;
 
   /* Text */
-  --text-primary: #223614;
+  --text-primary: #2f3e2e;
   --text-secondary: #4a4a4a;
   --text-light: #ffffff;
 

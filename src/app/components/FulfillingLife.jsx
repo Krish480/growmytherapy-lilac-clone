@@ -57,11 +57,10 @@ const FulfillingLife = () => {
     return (
         <section
             ref={sectionRef}
-            className="bg-[var(--bg-muted)] relative overflow-hidden"
-        >
+            className="bg-[var(--bg-muted)] relative overflow-hidden">
             <FulfillingLifeImage variant="mobile" />
 
-            <div className="flex flex-col lg:flex-row min-h-[700px]">
+            <div className="flex flex-col lg:flex-row ">
 
                 <FulfillingLifeText />
 

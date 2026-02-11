@@ -1,27 +1,27 @@
 @import "tailwindcss";
 
-*{
+* {
   font-family:
 }
 
 :root {
   /* Backgrounds */
-  --bg-main: #f7f2ea;
-  --bg-muted: #ede7dd;
+  --bg-main: #fbf6f1;
+  --bg-muted: #e5e0da;
   --bg-accent: #8b8f63;
-  
+
   /* Text */
-  --text-primary: #2f3e2e;
+  --text-primary: #223614;
   --text-secondary: #4a4a4a;
   --text-light: #ffffff;
-  
+
   /* Borders */
   --border-dark: #2f3e2e;
 
   /* Fonts */
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
-  
+
 }
 
 body {

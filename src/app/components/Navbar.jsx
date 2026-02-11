@@ -6,7 +6,7 @@ const Navbar = () => {
     const [open, setOpen] = useState(false);
 
     return (
-        <header className="bg-[var(--bg-main)] sticky top-0 z-40">
+        <header className="bg-[var(--bg-main)] relative">
             {/*  DESKTOP NAV  */}
             <div className="hidden md:flex max-w-8xl mx-auto px-14 py-4 items-center justify-between">
                 <div className="font-[var(--font-heading)] text-[var(--text-primary)]">

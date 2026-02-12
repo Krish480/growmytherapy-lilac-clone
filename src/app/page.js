@@ -3,6 +3,7 @@ import Hero from './components/Hero'
 import FulfillingLife from './components/FulfillingLife'
 import Specialties from './components/Specialties'
 import SplitSupportSection from './components/SplitSupportSection'
+import AboutSection from './components/AboutSection'
 
 
 const page = () => {
@@ -12,6 +13,7 @@ const page = () => {
       <FulfillingLife/>
       <Specialties/>
       <SplitSupportSection/>
+      <AboutSection/>
     </div>
   )
 }

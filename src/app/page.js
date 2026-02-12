@@ -4,6 +4,7 @@ import FulfillingLife from './components/FulfillingLife'
 import Specialties from './components/Specialties'
 import SplitSupportSection from './components/SplitSupportSection'
 import AboutSection from './components/AboutSection'
+import FAQSection from './components/FAQSection'
 
 
 const page = () => {
@@ -14,6 +15,7 @@ const page = () => {
       <Specialties/>
       <SplitSupportSection/>
       <AboutSection/>
+      <FAQSection/>
     </div>
   )
 }

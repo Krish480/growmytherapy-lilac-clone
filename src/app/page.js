@@ -5,6 +5,7 @@ import Specialties from './components/Specialties'
 import SplitSupportSection from './components/SplitSupportSection'
 import AboutSection from './components/AboutSection'
 import FAQSection from './components/FAQSection'
+import BackgroundSection from './components/BackgroundSection'
 
 
 const page = () => {
@@ -16,6 +17,7 @@ const page = () => {
       <SplitSupportSection/>
       <AboutSection/>
       <FAQSection/>
+      <BackgroundSection/>
     </div>
   )
 }

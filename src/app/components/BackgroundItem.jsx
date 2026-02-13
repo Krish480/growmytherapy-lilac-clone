@@ -27,7 +27,7 @@ const BackgroundItem = ({ title, content }) => {
                 className={`overflow-hidden transition-all duration-500 ${open ? "max-h-96 mt-2 opacity-100" : "max-h-0 opacity-0"
                     }`}
             >
-                <p className="text-[1.1rem] px-28 leading-relaxed text-[var(--text-primary)]">
+                <p className="text-[1.1rem] px-7 lg:px-28 leading-relaxed text-[var(--text-primary)]">
                     {content}
                 </p>
             </div>

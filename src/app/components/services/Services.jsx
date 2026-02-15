@@ -3,11 +3,11 @@
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import SpecialtiesCard from "./SpecialtiesCard";
+import ServicesCard from "./ServicesCard";
 
 gsap.registerPlugin(ScrollTrigger);
 
-const Specialties = () => {
+const Services = () => {
     const sectionRef = useRef(null);
 
     useEffect(() => {
@@ -40,33 +40,33 @@ const Specialties = () => {
 
                 {/* Heading Animation */}
                 <h2 className="text-center text-[3rem] font-[var(--font-heading)] text-[var(--text-primary)] mb-20">
-                    My Specialties
+                    How I Can Support You
                 </h2>
 
                 {/* Grid */}
                 <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 
                     <div className="special-card">
-                        <SpecialtiesCard
-                            title="Self-Esteem"
-                            description="Building a strong sense of self-worth is key to living a fulfilled life. Let's work together to bolster your self-esteem."
-                            image="/speacial1.webp"
+                        <ServicesCard
+                            title="Anxiety Therapy in Santa Monica"
+                            description="I help adults experiencing generalized anxiety, high-functioning anxiety, and chronic stress patterns develop practical tools and nervous system regulation skills."
+                            image="/Person1.png"
                         />
                     </div>
 
                     <div className="special-card">
-                        <SpecialtiesCard
-                            title="Relationships"
-                            description="Navigating relationships can be complex. I'm here to guide you through these complexities to help you form healthier connections."
-                            image="/speacial2.webp"
+                        <ServicesCard
+                            title="Trauma & EMDR Therapy"
+                            description="Using EMDR and depth-oriented therapy, we carefully process past experiences that continue to affect your confidence, relationships, or sense of safety."
+                            image="/Person2.png"
                         />
                     </div>
 
                     <div className="special-card">
-                        <SpecialtiesCard
-                            title="Burnout"
-                            description="Feeling overwhelmed by your career is more common than you think. Together, we'll identify strategies to manage and prevent burnout."
-                            image="/speacial3.webp"
+                        <ServicesCard
+                            title="Burnout & Professional Pressure"
+                            description="For professionals, entrepreneurs, and creatives feeling exhausted or perfectionistic, therapy becomes a space to slow down and reconnect with yourself."
+                            image="/Person3.png"
                         />
                     </div>
 
@@ -76,4 +76,4 @@ const Specialties = () => {
     );
 };
 
-export default Specialties;
+export default Services;

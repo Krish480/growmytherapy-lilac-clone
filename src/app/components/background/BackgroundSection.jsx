@@ -62,21 +62,21 @@ const BackgroundSection = () => {
                     <div className="bg-item">
                         <BackgroundItem
                             title="Education"
-                            content="Euphoria dianthus alchemilla muscari lavandula anthurium artemesia false artemesia moluccella gladiolus cirsium trollius anthurium prunus delphinium achillea."
+                            content="Licensed Clinical Psychologist (PsyD)"
                         />
                     </div>
 
                     <div className="bg-item">
                         <BackgroundItem
-                            title="Licensure"
-                            content="Licensed Clinical Therapist (LCT), State Certified, 10+ years experience."
+                            title="Modalities"
+                            content="CBT, EMDR, Mindfulness-Based Therapy, Body-Oriented Techniques"
                         />
                     </div>
 
                     <div className="bg-item">
                         <BackgroundItem
-                            title="Certifications"
-                            content="CBT Certified, Trauma-Informed Care Specialist, Relationship Therapy Expert."
+                            title="Focus Areas"
+                            content="Anxiety, Trauma, Burnout, Perfectionism, High Internal Pressure"
                         />
                     </div>
                 </div>

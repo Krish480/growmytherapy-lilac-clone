@@ -1,12 +1,12 @@
 import Image from "next/image";
 
-const SpecialtiesCard = ({ title, description, image }) => {
+const ServicesCard = ({ title, description, image }) => {
     return (
         <div className="border border-[var(--text-primary)] bg-[var(--bg-muted)] px-4 py-4 flex flex-col justify-between min-h-[520px]">
 
             {/* TEXT AREA */}
             <div>
-                <h3 className="text-lg font-medium font-[var(--font-heading)] text-[var(--text-primary)]">
+                <h3 className="text-xl font-medium font-[var(--font-heading)] text-[var(--text-primary)]">
                     {title}
                 </h3>
 
@@ -31,4 +31,4 @@ const SpecialtiesCard = ({ title, description, image }) => {
     );
 };
 
-export default SpecialtiesCard;
+export default ServicesCard;

@@ -6,8 +6,8 @@ const SplitSupportImage = ({ variant }) => {
         return (
             <div className="relative w-full h-[380px] lg:hidden">
                 <Image
-                    src="/support.webp"
-                    alt="Woman sitting calmly"
+                    src="/office2.jpeg"
+                    alt="Office image"
                     fill
                     className="object-cover"
                 />
@@ -19,8 +19,8 @@ const SplitSupportImage = ({ variant }) => {
         <div className="hidden lg:block relative w-1/2 support-image-desktop">
             <div className="absolute inset-0">
                 <Image
-                    src="/support.webp"
-                    alt="Woman sitting calmly"
+                    src="/office2.jpeg"
+                    alt="Office image"
                     fill
                     className="object-cover"
                     priority

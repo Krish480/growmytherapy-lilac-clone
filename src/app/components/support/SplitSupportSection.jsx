@@ -61,7 +61,7 @@ const SplitSupportSection = () => {
     return (
         <section
             ref={sectionRef}
-            className="relative bg-[var(--bg-accent2)] overflow-hidden">
+            className="relative bg-[var(--accent-sand)] overflow-hidden">
             <SplitSupportImage variant="mobile" />
 
             <div className="flex flex-col lg:flex-row">

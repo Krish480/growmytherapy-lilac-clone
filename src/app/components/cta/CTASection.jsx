@@ -66,19 +66,17 @@ const CTASection = () => {
 
                 {/* Heading */}
                 <h2 className="cta-heading text-[2.2rem] sm:text-[2.2rem] lg:text-[3.5rem] font-[var(--font-heading)] text-white mb-6">
-                    Get started today.
+                    Begin Therapy in Santa Monica Today
                 </h2>
 
                 {/* Paragraph */}
                 <p className="cta-text text-white/90 text-[1rem] sm:text-[1.1rem] lg:text-[1.25rem] leading-relaxed max-w-[700px] mx-auto mb-12">
-                    Ready to take the first step towards a happier, healthier you?
-                    Contact me to book your first session. I look forward to
-                    starting this therapeutic journey with you.
+                    If you’re looking for anxiety or trauma therapy in Santa Monica with a psychologist who combines practical tools with depth-oriented work, I invite you to schedule a consultation.
                 </p>
 
                 {/* Button */}
                 <button className="cta-btn border border-[var(--bg-main)] text-white px-10 py-4 text-sm tracking-widest uppercase transition-all duration-500 hover:bg-[var(--bg-main)] hover:text-[var(--text-accent)]">
-                    Get in touch →
+                    Schedule a Consultation →
                 </button>
 
             </div>

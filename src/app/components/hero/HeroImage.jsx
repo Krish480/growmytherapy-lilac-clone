@@ -5,7 +5,7 @@ const HeroImage = () => {
         <div className="flex justify-center lg:justify-start">
             <div className="relative w-[180px] sm:w-[240px] lg:w-[520px] aspect-[4/6] overflow-hidden rounded-t-full">
                 <Image
-                    src="/Hero.webp"
+                    src="/Dr. Maya Reynolds.png"
                     alt="Lilac flowers"
                     fill
                     priority

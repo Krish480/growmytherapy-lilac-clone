@@ -6,19 +6,19 @@ const SplitSupportContent = () => {
             <div className="support-content px-6 py-16 lg:px-20 lg:py-32">
 
                 <h2 className="text-[2.8rem] font-semibold lg:text-[3.2rem] leading-tight font-[var(--font-heading)] text-[var(--text-primary)]">
-                    You don’t have to do this <br /> all alone.
+                    You Don’t Have to Do This Alone
                 </h2>
 
                 <p className="mt-8 text-[1.1rem] font-medium text-[var(--text-secondary)]">
-                    If you are facing any of these, there’s hope:
+                    Therapy may help if you:
                 </p>
 
                 <ul className="mt-6 space-y-4 font-medium text-[var(--text-secondary)] text-[1.1rem] list-disc pl-6">
-                    <li>Persistent feelings of sadness or hopelessness</li>
-                    <li>Trouble focusing or making decisions</li>
-                    <li>Difficulty maintaining relationships</li>
-                    <li>Feeling constantly exhausted or unmotivated</li>
-                    <li>A pervasive sense of being overwhelmed</li>
+                    <li>Feel constantly tense or bracing for something to go wrong</li>
+                    <li>Struggle with overthinking or racing thoughts</li>
+                    <li>Feel emotionally drained from professional pressure</li>
+                    <li>Notice old patterns affecting your relationships</li>
+                    <li>Want deeper self-understanding and long-term change</li>
                 </ul>
 
                 <p className="mt-10 text-[1.1rem] font-medium text-[var(--text-secondary)]">
@@ -33,7 +33,7 @@ const SplitSupportContent = () => {
                     href="#"
                     className="text-medium tracking-wide font-semibold"
                 >
-                    WORK WITH ME →
+                    Start Therapy in Santa Monica →
                 </a>
             </div>
 

@@ -1,22 +1,23 @@
-import { Inter, Playfair_Display } from "next/font/google";
+import { Cormorant_Garamond, Manrope } from "next/font/google";
 import "./globals.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/layout/Navbar";
 
-const inter = Inter({
+const bodyFont = Manrope({
   subsets: ["latin"],
+  weight: ["400", "500", "600"],
   variable: "--font-body",
 });
 
-const playfair = Playfair_Display({
+const headingFont = Cormorant_Garamond({
   subsets: ["latin"],
+  weight: ["500", "600", "700"],
   variable: "--font-heading",
 });
 
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={`${inter.variable} ${playfair.variable}`}>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
+      <body className={`${bodyFont.variable} ${headingFont.variable}`}>
         <Navbar />
         {children}
       </body>

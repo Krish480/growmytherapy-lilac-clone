@@ -1,28 +1,56 @@
 @import "tailwindcss";
 
 
-:root {
-  /* Backgrounds */
-  --bg-main: #fbf6f1;
+/* :root { */
+/* Backgrounds */
+/* --bg-main: #fbf6f1;
   --bg-muted: #e5e0da;
   --bg-accent: #7e7b46;
-  --bg-accent2: #c2bfcb;
+  --bg-accent2: #c2bfcb; */
 
-  /* Text */
-  --text-primary: #2f3e2e;
+/* Text */
+/* --text-primary: #2f3e2e;
   --text-secondary: #4a4a4a;
-  --text-light: #ffffff;
+  --text-light: #ffffff; */
 
-  /* Borders */
-  --border-dark: #2f3e2e;
+/* Borders */
+/* --border-dark: #2f3e2e; */
 
-  /* Fonts */
+/* Fonts */
+/* --font-heading: var(--font-heading);
+  --font-body: var(--font-body); */
+
+/* } */
+/* 
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-main);
+} */
+
+/*  Dr. Maya Reynolds Theme */
+:root {
+
+  --bg-main: #F3EFEA;
+  --bg-muted: #E3ECE8;  
+  --bg-accent: #163B32;
+  --bg-accent-soft: #235347;
+
+  --text-primary: #0F2E28;
+  --text-secondary: #3F4F4A;
+  --text-light: #FFFFFF;
+
+  --accent-sand: #d9fffb;
+
+  --border-dark: #163B32;
+
+  /*  FONTS  */
   --font-heading: var(--font-heading);
   --font-body: var(--font-body);
-
 }
+
 
 body {
   font-family: var(--font-body);
   background-color: var(--bg-main);
+  color: var(--text-primary);
 }

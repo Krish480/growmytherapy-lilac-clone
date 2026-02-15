@@ -2,12 +2,13 @@
 
 import { useEffect, useRef } from "react";
 import gsap from "gsap";
-import FulfillingLifeText from "./FulfillingLifeText";
-import FulfillingLifeImage from "./FulfillingLifeImage";
+import AboutPreviewSectionText from "./AboutPreviewText";
+import AboutPreviesSectionIMG from "./AboutPreviesSectionIMG";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
+import AboutPreviewText from "./AboutPreviewText";
 gsap.registerPlugin(ScrollTrigger);
 
-const FulfillingLife = () => {
+const AboutPreviewSection = () => {
     const sectionRef = useRef(null);
 
     useEffect(() => {
@@ -58,17 +59,17 @@ const FulfillingLife = () => {
         <section
             ref={sectionRef}
             className="bg-[var(--bg-muted)] relative overflow-hidden">
-            <FulfillingLifeImage variant="mobile" />
+            <AboutPreviesSectionIMG variant="mobile" />
 
             <div className="flex flex-col lg:flex-row ">
 
-                <FulfillingLifeText />
+                <AboutPreviewText />
 
-                <FulfillingLifeImage variant="desktop" />
+                <AboutPreviesSectionIMG variant="desktop" />
 
             </div>
         </section>
     );
 };
 
-export default FulfillingLife;
+export default AboutPreviewSection;

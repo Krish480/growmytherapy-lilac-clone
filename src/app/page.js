@@ -1,21 +1,23 @@
 import React from 'react'
-import Hero from './components/Hero'
-import FulfillingLife from './components/FulfillingLife'
-import Specialties from './components/Specialties'
-import SplitSupportSection from './components/SplitSupportSection'
-import AboutSection from './components/AboutSection'
-import FAQSection from './components/FAQSection'
-import BackgroundSection from './components/BackgroundSection'
-import CTASection from './components/CTASection'
-import FooterSection from './components/FooterSection'
+import Hero from './components/hero/Hero'
+import FulfillingLife from './components/about/AboutPreviewSection'
+import Specialties from './components/services/Services'
+import SplitSupportSection from './components/support/SplitSupportSection'
+import AboutSection from './components/about/AboutSection'
+import FAQSection from './components/faq/FAQSection'
+import BackgroundSection from './components/background/BackgroundSection'
+import CTASection from './components/cta/CTASection'
+import FooterSection from './components/layout/FooterSection'
+import AboutPreviewSection from './components/about/AboutPreviewSection'
+import Services from './components/services/Services'
 
 
 const page = () => {
   return (
     <div>
       <Hero/>
-      <FulfillingLife/>
-      <Specialties/>
+      <AboutPreviewSection/>
+      <Services/>
       <SplitSupportSection/>
       <AboutSection/>
       <FAQSection/>

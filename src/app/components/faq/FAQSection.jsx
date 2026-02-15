@@ -68,7 +68,7 @@ const FAQSection = () => {
                 <div className="w-full lg:w-1/2 flex justify-center">
                     <div className="faq-image relative w-[8.3rem] sm:w-[10rem] lg:w-[28rem] aspect-[4/6] rounded-t-full overflow-hidden">
                         <Image
-                            src="/faq-image.webp"
+                            src="/FaqImg.png"
                             alt="FAQ"
                             fill
                             className="object-cover"
@@ -85,22 +85,22 @@ const FAQSection = () => {
                     <div className="border-t">
                         <div className="faq-item">
                             <FAQItem
-                                question="Do you take insurance?"
-                                answer="Yes, I accept select insurance providers. Please contact me to confirm your coverage."
+                                question="Do you offer in-person therapy in Santa Monica?"
+                                answer="Yes, I offer in-person therapy sessions in my Santa Monica office."
                             />
                         </div>
 
                         <div className="faq-item">
                             <FAQItem
-                                question="What are your rates?"
-                                answer="My standard rate is $150 per session. Sliding scale options may be available."
+                                question="Do you offer telehealth sessions in California?"
+                                answer="Yes, I offer telehealth sessions for clients in California."
                             />
                         </div>
 
                         <div className="faq-item">
                             <FAQItem
-                                question="Do you have any openings?"
-                                answer="Availability changes weekly. Reach out to check current openings."
+                                question="What therapy approaches do you use?"
+                                answer="I integrate CBT, EMDR, mindfulness-based practices, and body-oriented techniques."
                             />
                         </div>
                     </div>

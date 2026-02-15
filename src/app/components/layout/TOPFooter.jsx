@@ -8,16 +8,18 @@ const TOPFooter = () => {
             <div className="lg:flex-[1.4]">
 
                 <h3 className="lg:text-[2.3rem] text-[1.7rem] font-semibold font-[var(--font-heading)] mb-5">
-                    Lilac Template
+                    Dr. Maya Reynolds, PsyD
+                    Licensed Clinical Psychologist
                 </h3>
 
                 <p className="leading-relaxed mb-10 text-[1.15rem]">
-                    123 Example Road<br />
-                    Minneapolis, MN
+                    123th Street 45 W<br />
+                    Santa Monica, CA 90401
                 </p>
 
                 <p className="underline mb-4 cursor-pointer text-[1.15rem]">
-                    email@example.com
+                    In-Person Therapy in Santa Monica
+                    Telehealth Across California
                 </p>
 
                 <p className="underline cursor-pointer text-[1.15rem]">

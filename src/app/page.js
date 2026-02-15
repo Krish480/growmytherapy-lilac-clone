@@ -10,6 +10,7 @@ import CTASection from './components/cta/CTASection'
 import FooterSection from './components/layout/FooterSection'
 import AboutPreviewSection from './components/about/AboutPreviewSection'
 import Services from './components/services/Services'
+import OfficeSection from './components/office/OfficeSection'
 
 
 const page = () => {
@@ -18,6 +19,7 @@ const page = () => {
       <Hero/>
       <AboutPreviewSection/>
       <Services/>
+      <OfficeSection/>
       <SplitSupportSection/>
       <AboutSection/>
       <FAQSection/>
